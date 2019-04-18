@@ -1,3 +1,19 @@
+# PCA Comparison of *the Story of a Stone* and *Harry Potter 1-3*
+
+code from Yu Lou.
+
+## Non-dictionary word splitting and principle component analysis
+
+### *the Story of a Stone*
+
+ss.png shows a seperation to some extent between the last 40 chapters and the first 80, indicating word choice difference and possibly coming from different authors.
+
+### *Harry Potter 1-3*
+
+On the other hand, hp.png shows the word choice difference among the first 3 series of *Harry Potter*. They are clustered, as they are from the same author. 
+
+
+# ------------ Original README below --------------
 # Analysis on *the Story of a Stone*
 
 Author: Yu Lou
