@@ -4,7 +4,7 @@ import os
 
 chapter_folder = "chapters"
 result_folder = "chapters_split"
-number_of_chapters = 120
+number_of_chapters = 57
 
 
 def main():

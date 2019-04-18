@@ -4,7 +4,7 @@ import math
 word_split_mark = "/"
 split_mark = "，"
 
-number_of_chapters = 120
+number_of_chapters = 57
 input_folder = "chapters_split"
 
 

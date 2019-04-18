@@ -1,3 +1,5 @@
+#coding:utf-8
+
 """
 Author: Yu Lou
 """
@@ -7,7 +9,7 @@ split_mark = "#"  # Split mark for output
 filtered_chars = "『』［］[]〔〕"  # Characters to ignore
 split_chars = " …《》，、。？！；：“”‘’'\n\r-=—()（）.【】"  # Characters representing split mark
 
-input_file = open("hlm.txt", "r")  # Open input file
+input_file = open("raw.txt", "r")  # Open input file
 
 
 def str_replace(string, str_from, str_to=""):
@@ -30,7 +32,9 @@ def preprocessing(string):
     Preprocess string.
     :return: processed string
     """
-    string = str_replace_re(string, "正文 第.{1,5}回")
+    reg = '哈利波特与.+[ ]+:[ ]+第[0-9]{1,2}章'
+    patt = re.compile(reg,re.I)
+    string = str_replace_re(string, patt)   
 
     for char in filtered_chars:
         string = str_replace(string, char)
@@ -38,10 +42,18 @@ def preprocessing(string):
     for char in split_chars:
         string = str_replace(string, char, split_mark)
 
-    # Remove consecutive split marks
-    while split_mark + split_mark in string:
-        string = str_replace(string, split_mark + split_mark, split_mark)
+    # # Remove consecutive split marks
+    # while split_mark + split_mark in string:
+    #     string = str_replace(string, split_mark + split_mark, split_mark)
 
+    reg = '[# ]+'
+    patt = re.compile(reg,re.I)
+    string = str_replace_re(string,patt,"#")
+
+    reg = '[ ]+'
+    patt = re.compile(reg,re.I)
+    string = str_replace_re(string,patt)
+    
     return string
 
 

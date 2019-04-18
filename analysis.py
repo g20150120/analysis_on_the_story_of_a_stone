@@ -7,8 +7,8 @@ from mpl_toolkits.mplot3d import Axes3D
 
 import random
 
-number_of_chapters = 120  # Number of chapters
-ignored_words = ["笑道", "宝玉"]  # Words to ignore
+number_of_chapters = 57  # Number of chapters
+ignored_words = []  # Words to ignore
 randomly_choose_training_samples = False  # Choose training samples for PCA randomly
 training_samples_portion = 0.5  # Portion of training samples
 adjust_prob = True  # Adjust probability for 1-79 chapters
@@ -115,9 +115,9 @@ def plot_result(result):
         marker = "o"
         alpha = 0.5
 
-        if i > 80:
+        if i > 35:
             color = (0, 0, 1, alpha)
-        elif i > 40:
+        elif i > 17:
             color = (0, 1, 0, alpha)
         else:
             color = (1, 0, 0, alpha)
