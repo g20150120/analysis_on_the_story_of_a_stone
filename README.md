@@ -8,10 +8,13 @@ code from Yu Lou.
 
 ss.png shows a seperation to some extent between the last 40 chapters and the first 80, indicating word choice difference and possibly coming from different authors.
 
+![alt text](https://github.com/g20150120/analysis_on_the_story_of_a_stone/blob/master/hlm.png))]
+
 ### *Harry Potter 1-3*
 
 On the other hand, hp.png shows the word choice difference among the first 3 series of *Harry Potter*. They are clustered, as they are from the same author. 
 
+![alt text](https://github.com/g20150120/analysis_on_the_story_of_a_stone/blob/master/hp.png))]
 
 # ------------ Original README below --------------
 # Analysis on *the Story of a Stone*
