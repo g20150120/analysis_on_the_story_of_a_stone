@@ -8,7 +8,7 @@ code from Yu Lou.
 
 ss.png shows a seperation to some extent between the last 40 chapters and the first 80, indicating word choice difference and possibly coming from different authors.
 
-![alt text](https://github.com/g20150120/analysis_on_the_story_of_a_stone/blob/master/hlm.png))]
+![alt text](https://github.com/g20150120/analysis_on_the_story_of_a_stone/blob/master/ss.png))]
 
 ### *Harry Potter 1-3*
 
